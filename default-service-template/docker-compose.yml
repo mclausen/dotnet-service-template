@@ -1,0 +1,6 @@
+﻿services:
+  __boundedcontext__.__servicename__.api__boundedcontext__.__servicename__.api-1:
+    image: __boundedcontext__.__servicename__.api__boundedcontext__.__servicename__.api-1
+    build:
+      context: .
+      dockerfile: src/__BoundedContext__.__ServiceName__.Api/Dockerfile
