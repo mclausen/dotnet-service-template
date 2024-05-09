@@ -25,4 +25,13 @@
       <ProjectReference Include="..\__ServiceName__.Infrastructure\__ServiceName__.Infrastructure.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Update="Endpoints\WeatherForecast\WeatherForecastRequestValidator.cs">
+        <DependentUpon>ReportWeatherForecastEndpoint.cs</DependentUpon>
+      </Compile>
+      <Compile Update="Endpoints\WeatherForecast\WeatherForecastRequest.cs">
+        <DependentUpon>ReportWeatherForecastEndpoint.cs</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
 </Project>
