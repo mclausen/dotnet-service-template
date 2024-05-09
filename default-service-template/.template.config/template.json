@@ -4,6 +4,7 @@
     "classifications": ["ServiceTemplate"],
     "name": "default-api-service-template",
     "description": "Creates a default dotnet api service",
+    "shortName": "api-service",
     "symbols": {
         "companyName": {
             "type": "parameter",
