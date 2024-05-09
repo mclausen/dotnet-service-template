@@ -4,6 +4,7 @@
     "classifications": ["ServiceTemplate"],
     "name": "default-api-service-template",
     "description": "Creates a default dotnet api service",
+    "identity": "TropicalCode.DefaultApiService.Csharp",
     "shortName": "api-service",
     "symbols": {
         "companyName": {
@@ -12,8 +13,8 @@
             "isRequired": true,
             "datatype": "text",
             "description": "Provides the name of the Company",
-            "replaces": "__Company_",
-            "FileRename": "__Company_"
+            "replaces": "__Company__",
+            "FileRename": "__Company__"
         },
         "departmentName": {
             "type": "parameter",
@@ -26,21 +27,21 @@
         },
         "boundedContext": {
             "type": "parameter",
-            "defaultValue": "BoundedContext",
+            "defaultValue": "MyBoundedContext",
             "isRequired": true,
             "datatype": "text",
-            "description": "Provides the name of the Service",
-            "replaces": "_BoundedContext_",
-            "FileRename": "_BoundedContext_"
+            "description": "Provides the name of the bounded context",
+            "replaces": "__BoundedContext__",
+            "FileRename": "__BoundedContext__"
         },
         "serviceName": {
             "type": "parameter",
-            "defaultValue": "ServiceName",
+            "defaultValue": "MyServiceName",
             "isRequired": true,
             "datatype": "text",
             "description": "Provides the name of the Service",
-            "replaces": "_ServiceName_",
-            "FileRename": "_ServiceName_"
+            "replaces": "__ServiceName__",
+            "FileRename": "__ServiceName__"
         }
     }
   }
