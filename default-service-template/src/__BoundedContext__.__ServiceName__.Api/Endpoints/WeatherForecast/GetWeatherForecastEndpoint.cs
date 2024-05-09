@@ -1,4 +1,4 @@
-namespace __BoundedContext__.__ServiceName__.Api.Endpoints.WheatherForecast;
+namespace __BoundedContext__.__ServiceName__.Api.Endpoints.WeatherForecast;
 
 public class GetWeatherForecastEndpoint : IEndpoint
 {
